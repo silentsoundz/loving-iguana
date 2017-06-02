@@ -3,18 +3,18 @@
 These are the basic specs for Bossggle, broken into 5 stages. If you complete these specs, try taking on some of the [Stretch specs](#stretch).
 
 #### Stage 1
-- [1] Repo is created on GitHub.
-- [ ] The site looks the same as in the [mockups](#mockups) (except without the same words/letters/points - those are just placeholders).
+- [x] Repo is created on GitHub.
+- [x] The site looks the same as in the [mockups](#mockups) (except without the same words/letters/points - those are just placeholders).
 - [x] Your repo includes the files: `index.html`, `main.css`, and `bossggle.js`.
 
 #### Stage 2
-- [ ] Clicking on a letter changes its color to orange.
-- [ ] Clicking on a letter adds it to the word.
-- [ ] The word is updated with each new letter.
+- [x] Clicking on a letter changes its color to orange.
+- [x] Clicking on a letter adds it to the word.
+- [x] The word is updated with each new letter.
 
 #### Stage 3
 - [ ] Pressing the "Submit" button submits the word for points.
-- [ ] Pressing the "Clear" button clears the word and all selected letters.
+- [x] Pressing the "Clear" button clears the word and all selected letters.
 - [ ] Pressing the "Reset" button clears the word, all selected letters, and generates a new set of letters on the board.
 
 #### Stage 4

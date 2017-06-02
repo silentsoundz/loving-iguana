@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-style: normal;
+  src:url("https://fonts.googleapis.com/css?family=Montserrat");
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainCanvas {
+  border: 10px solid rgb(216,216,216);
+  display: flex;
+}
+.gameInfo {
+  background-color: rgb(236,236,236);
+  padding-right: 150px;
+}
+
+.gameBoard {
+  display: flex;
+  height: 448px;
+  justify-content: center;
+  margin: 150px 150px 100px 100px;
+  padding: 0px;
+  width: 575px;
+}
+
+.selectedLetters{
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+  height: 60px;
+  padding-top: 200px;
+  margin-bottom: 0px;
+  color: rgb(151,151,151);
+}
+
+.column {
+  margin: -3px;
+}
+
+.letter {
+  background:rgb(151,151,151);
+  border: 1px solid orange;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  height: 75px;
+  margin: 7px;
+  width: 75px;
+  text-align: center;
+}
+
+.activate {
+  border: 1px solid grey;
+  background-color:orange;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  height: 75px;
+  margin: 7px;
+  width: 75px;
+  text-align: center;
+}
+
+.actionButtons{
+  float: right;
+  padding: 50px;
+  padding-right: 200px;
+}
+
+.submitButton {
+  background-color: rgb(191,232,148);
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 13px;
+  width: 75px;
+
+}
+.clearButton {
+  background-color: rgb(254,170,181);
+  border-radius: 5px;
+  color: white;
+  height: 30px;
+  padding-left: 13px;
+  padding-top: 5px;
+  width: 60px;
+
+}
+.resetButton {
+  background-color: rgb(74,74,74);
+  border-radius: 5px;
+  color: white;
+  float: right;
+  height: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  margin: -196px 277px 0px 0px;
+  width: 65px;
+}
